@@ -1,0 +1,157 @@
+.holder{
+    display: flex;
+    flex-direction:row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+   
+}
+.container{
+    background-color: rgb(187, 172, 105);
+    width: 1250px;
+    height: 700px;
+    position: relative;
+}
+.Popis{
+    width: 1250px;
+    height: 150px;
+    background: rgb(17, 17, 17);
+    opacity: 50%;
+    position:absolute;
+    bottom: 0;
+    color: white;
+    font-size: 150%;
+    /* margin:auto; */
+}
+
+.Popisok{
+    margin-top: 0px;
+    font-size: 250%;
+}
+
+.podrobnyPopis{
+    padding-bottom: 10px;
+    font-size: 150%;
+    margin: 0%;
+}
+    
+#image{
+    height: 700px;
+    width: 1250px;
+}
+body{
+    background: rgb(141, 129, 129);
+    display: flex;
+    flex-direction: column;
+}
+.thumbnail{
+    width:70px;
+    height:70px;
+    background: blue;
+    border-radius: 5px;
+}
+.thumbnail:hover .title{
+    transform: scale(1.5);
+    display: block;
+    
+}
+.drziakSpodnych{
+    display: flex; 
+    width:600px;
+    height: 80px;
+    justify-content: space-around;
+    background: transparent;
+    align-items: center;
+    margin: auto;
+    margin-top: 13px;
+    border-radius: 5px;
+}
+.thumbnail:hover {
+        transform: scale(1.5);
+        display: block;  
+        box-shadow: 1px -6px 19px 7px rgba(0,0,0,0.77);
+}
+.title{
+  display: none;
+  position: relative;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  bottom: -70px; 
+}
+.LRarr{
+   
+    background-color:  white;
+    flex-grow: 0.04;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;   
+}
+.Rarr{
+    background-color:  white;
+    flex-grow: 0.04;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.LBTN{
+    width: 50px;
+    height: 70px;
+    background-image: url("arrow.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    border:0px;
+}
+.RBTN{
+    width: 50px;
+    height: 70px;
+    background-image: url("arrow.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    transform: rotate(0.5turn);
+    border:0px;
+}
+.resizeSmall{
+    max-width: auto;
+    max-height: auto;
+}
+#Oak{
+    background-image: url("Oak.jpeg");
+    background-size: cover;
+    cursor: pointer;
+}
+#Palacinky{
+    background-image: url("Palacinky.jpg");
+    background-size: cover;
+    cursor: pointer;
+}
+#Zebra{
+    background-image: url("Zebra.jpeg");
+    background-size: cover;
+    cursor: pointer;
+}
+#Vcela{
+    background-image: url("Vcela.jpeg");
+    background-size: cover;
+    cursor: pointer;
+}
+#Plaz{
+    background-image: url("Plaz.jpeg");
+    background-size: cover;
+    cursor: pointer;
+}
+#Tiger{
+    background-image: url("Tiger.jpeg");
+    background-size: cover;
+    cursor: pointer;
+}
+
